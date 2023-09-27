@@ -1,0 +1,141 @@
+<!-- Music ap  name = TrueMusic -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueMusic - Always with you</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <nav>
+        <ul>
+            <li class="brand"><img src="music logo.jpg" alt="TrueMusic Logo">TrueMusic</li>
+            <li>Home</li>
+            <li>About</li>
+            <a href="login.html">Log In / Sign Up</a>
+
+        </ul>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <li class="brand"><img src="music logo.jpg" alt="TrueMusic Logo">TrueMusic</li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Favourites</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">New</a></li>
+                            <li><a class="dropdown-item" href="#">Old</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mix</a></li>
+                        </ul>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>Your current favourites</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dreams</span>
+                    <span class="songListPlay"><span class="timestamp">2:31 <i id="0"
+                                class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dreams</span>
+                    <span class="songListPlay"><span class="timestamp">2:31 <i id="1"
+                                class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dreams</span>
+                    <span class="songListPlay"><span class="timestamp">2:31 <i id="2"
+                                class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dreams</span>
+                    <span class="songListPlay"><span class="timestamp">2:31 <i id="3"
+                                class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dreams</span>
+                    <span class="songListPlay"><span class="timestamp">2:31 <i id="4"
+                                class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" class="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="music gif 2.png" width="60px" alt="2" id="gif"> <span id="masterSongName"> Dreams</span>
+        </div>
+    </div>
+
+    <footer>
+        Thank You for Visiting || Prem Sarkar
+    </footer>
+
+    <script src="https://kit.fontawesome.com/19da56272f.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
